@@ -32,6 +32,14 @@
     border-radius: 25px;
     background-color: #fff;
 
+    .change-city {
+      position: fixed;
+      top: 30px;
+      right: 30px;
+      font-size: 18px;
+      color: #fff;
+    }
+
     .address {
       font-weight: 700;
       font-size: 20px;
@@ -52,7 +60,11 @@
         height: 24px;
         text-align: center;
         font-weight: normal;
-        margin-left: 3px;
+        margin-left: 5px;
+        border: 1px solid #5E4FC1;
+        border-radius: 5px;
+        color: #5E4FC1;
+        font-size: 16px;
       }
 
     }

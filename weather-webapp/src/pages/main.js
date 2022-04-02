@@ -19,6 +19,9 @@ const MidCard = () => {
 
   return (
     <div className="mid-card">
+      <div className="change-city" onClick={() => {
+        setCityChange(true)
+      }}>切换城市</div>
       <div className="weather-icon">
         <WeatherIcon weather = { feature.weather } />
       </div>
@@ -38,7 +41,7 @@ const MidCard = () => {
                 }
                 setNewCity('');
                 event.stopPropagation();
-              }}>切换</span>
+              }}>保存</span>
             </div>
           ) : (
             <div>

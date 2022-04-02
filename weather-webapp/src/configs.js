@@ -7,7 +7,8 @@ import humidityIconS from './res/icons/weather-info/humidity-s.svg';
 import windIconS from './res/icons/weather-info/wind-s.svg';
 
 export const ServerConfig = {
-  serverUrl: 'http://127.0.0.1:8001'
+  // serverUrl: 'http://127.0.0.1:8001'
+  serverUrl: 'http://cs.unicornhunter.cn:8001'
 };
 
 export const navBars = [
