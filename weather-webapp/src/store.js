@@ -63,8 +63,11 @@ export const Store = (props = {}) => {
 
   useEffect(() => {
     Cache.timer = window.setInterval(() => {
+      const position = getCache('position', true);
       updateTimeData();
-      updateWeatherData(position.city);
+      if (position) {
+        updateWeatherData(position.city);
+      }
     }, 60 * 1000);
 
     const feature = getCache('feature', true);
