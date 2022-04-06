@@ -20,3 +20,13 @@
     - 重新执行node服务
         - npm run server
     - 访问 http://127.0.0.1:8001 即可预览页面
+
+## 后续可做优化
+- 图片和资源放到CDN地址，并可做gzip压缩
+- 补充Suspense的页面，并且使用新的 transition API
+- 使用Error Boundaries做错误捕捉
+- 一些组件抽得更细，做code-split，但尽可能不做过度优化
+- 额外增加客户端的内存缓存，lru-cache（目前做了服务端的，以及读localstorage）
+- 时钟和天气用服务端校准，优化轮询机制
+- 。。。其实有很多优化空间的，只是因为demo，以及准备面试，所以没有深入
+
