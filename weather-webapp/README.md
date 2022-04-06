@@ -1,3 +1,6 @@
+## 预览服务地址
+- http://cs.unicornhunter.cn:8001/#/
+
 ## 环境配置
 - node 版本 ^12.22.0 || ^14.17.0 || >=16.0.0 & <17.0.0
 - npm i --registry=https://registry.npmmirror.com/
